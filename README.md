@@ -10,7 +10,7 @@ You can try our model using the demo link below
 
 ArBanking77 Corpus
 --------
-ArBanking77 consists of 31,404 (MSA and Palestinian dialects) that are manually Arabized and localized from the original English Banking77 dataset; which consists of 13,083 queries. Each query is classified into one of the 77 classes (intents) including card arrival, card linking, exchange rate, and automatic top-up. You can find the list of these 77 intents in the `data\bank77_intents.csv` file. A neural model based on AraBERT was fine-tuned on the ArBanking77 dataset (F1-score 92% for MSA, 90% for PAL)
+ArBanking77 consists of 31,404 (MSA and Palestinian dialects) that are manually Arabized and localized from the original English Banking77 dataset; which consists of 13,083 queries. Each query is classified into one of the 77 classes (intents) including card arrival, card linking, exchange rate, and automatic top-up. You can find the list of these 77 intents in the `data/bank77_intents.csv` file. A neural model based on AraBERT was fine-tuned on the ArBanking77 dataset (F1-score 92% for MSA, 90% for PAL)
 
 
 Corpus Download
