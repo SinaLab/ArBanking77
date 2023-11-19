@@ -17,7 +17,7 @@ Corpus Download
 --------
 A sample data is available in the `data` directory. However, the entire ArBanking77 corpus is 
 available to download upon request for academic and commercial use. Request to download 
-ArBanking77 (corpus and the model).
+ArBanking77 (corpus and the model). However, we cannot provide the augmented data.
 
 [https://sina.birzeit.edu/arbanking77/](https://sina.birzeit.edu/arbanking77/)
 
