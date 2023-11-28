@@ -54,9 +54,10 @@ Project Structure
 ```
 .
 ├── data                            <- data dir
-│   ├── Banking77_Arabized_test_sample.csv
-│   ├── Banking77_Arabized_train_sample.csv
-│   ├── Banking77_Arabized_val_sample.csv
+│   ├── Banking77_Arabized_MSA_PAL_train_sample.csv
+│   ├── Banking77_Arabized_MSA_PAL_val_sample.csv
+│   ├── Banking77_Arabized_MSA_test_sample.csv
+│   ├── Banking77_Arabized_PAL_test_sample.csv
 │   ├── Banking77_intents.csv
 ├── outputs
 │   ├── models                      <- trained models
