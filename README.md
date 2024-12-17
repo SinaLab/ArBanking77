@@ -101,8 +101,7 @@ Additionally, you can evaluate the trained model on `Banking77_Arabized_MSA_test
 
 Credits
 -------
-The first phase of this research was partially funded by the Palestinian Higher Council for Innovation and Excellence.
-
+The first phase of this research was partially funded by the Palestinian Higher Council for Innovation and Excellence and the Scientific and TÜBİTAK under project No. 120N761 - CONVERSER: Conversational AI System for Arabic.
 
 Citation
 -------
