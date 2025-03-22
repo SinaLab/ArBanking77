@@ -87,6 +87,7 @@ Project Structure
 │   ├── Banking77_Arabized_Saudi_test.csv
 │   ├── Banking77_Arabized_Tunisian_test.csv
 │   ├── Banking77_intents.csv
+│   ├── Banking77_full_corpus.csv
 ├── outputs
 │   ├── models                      <- trained models
 │   ├── results                     <- evaluation results and reports
