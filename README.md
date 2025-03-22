@@ -1,6 +1,6 @@
 ArBanking77: Intent Detection Neural Model and a New Dataset in Modern and Dialectical Arabic
 ======================
-ArBanking77 is an MSA and Dialectal Arabic Corpus for Arabic Intent Detection in the Banking Domain. It consists of 31,404
+ArBanking77 is an MSA and Dialectal Arabic Corpus for Arabic Intent Detection in the Banking Domain. It consists of 31,038
 samples (MSA, Palestinian, Saudi, Moroccan, and Tunisian dialects). This repo contains the source-code and dataset to train and evaluate
 Arabic Intent Detection model.
 
@@ -9,9 +9,9 @@ ArBanking77 Corpus
 --------
 ArBanking77 consists of 31,404 (MSA, Palestinian, Saudi, Moroccan, and Tunisian dialects) that are manually Arabized and localized from the original
 English Banking77 dataset; which consists of 13,083 queries. Each query is classified into one of the 77 classes (intents) including card arrival, card linking, exchange rate, and automatic top-up. You can find the list of these 77 intents in the `./data/Banking77_intents.csv` file. A neural model based on AraBERT was fine-tuned on the ArBanking77 dataset (F1-score 92% for MSA, 90% for PAL).
-You can also find the `./Banking77_full_corpus.csv` file which contains 31,038 covering: Modern Standard Arabic (MSA), Palestinian dialect, Saudi dialect, Moroccan dialect, Tunisian dialect. This dataset enables intent classification tasks in both MSA and regional dialects.
+You can also find the `./Banking77_full_corpus.csv` file, which contains 31,038 samples spanning Modern Standard Arabic (MSA), Palestinian, Saudi, Moroccan, and Tunisian dialects. 
 
-**Banking77_full_corpus.csv Format** <br>
+**Full Data Format Banking77_full_corpus.csv** <br>
 | Column Name          | Description |
 |----------------------|-------------|
 | Intent_ID       | Unique identifier for each intent |
