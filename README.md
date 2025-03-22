@@ -8,10 +8,39 @@ Arabic Intent Detection model.
 ArBanking77 Corpus
 --------
 ArBanking77 consists of 31,404 (MSA, Palestinian, Saudi, Moroccan, and Tunisian dialects) that are manually Arabized and localized from the original
-English Banking77 dataset; which consists of 13,083 queries. Each query is classified into one of the 77 classes (
-intents) including card arrival, card linking, exchange rate, and automatic top-up. You can find the list of these 77
-intents in the `./data/Banking77_intents.csv` file. A neural model based on AraBERT was fine-tuned on the ArBanking77
-dataset (F1-score 92% for MSA, 90% for PAL)
+English Banking77 dataset; which consists of 13,083 queries. Each query is classified into one of the 77 classes (intents) including card arrival, card linking, exchange rate, and automatic top-up. You can find the list of these 77 intents in the `./data/Banking77_intents.csv` file. A neural model based on AraBERT was fine-tuned on the ArBanking77 dataset (F1-score 92% for MSA, 90% for PAL).
+You can also find the `./Banking77_full_corpus.csv` file which contains 31,038 covering: Modern Standard Arabic (MSA), Palestinian dialect, Saudi dialect, Moroccan dialect, Tunisian dialect. This dataset enables intent classification tasks in both MSA and regional dialects.
+
+**Banking77_full_corpus.csv Format** <br>
+| Column Name          | Description |
+|----------------------|-------------|
+| Intent_ID       | Unique identifier for each intent |
+| Intent_en       | Intent description in English |
+| Intent_ar       | Intent description in Arabic |
+| QID             | Unique identifier for each question record in the corpus |
+| Question_en     | The English version of the question |
+| QuestionID_MSA1 | Identifier for the first MSA-generated question |
+| Question_MSA1   | First MSA version of the question |
+| QuestionID_MSA2 | Identifier for the second MSA-generated question |
+| Question_MSA2   | Second MSA version of the question |
+| QuestionID_PAL1 | Identifier for the first Palestinian dialect question |
+| Question_PAL1   | First Palestinian dialect question |
+| QuestionID_PAL2 | Identifier for the second Palestinian dialect question |
+| Question_PAL2   | Second Palestinian dialect question |
+| QuestionID_Saudi1 | Identifier for the first Saudi dialect question |
+| Question_Saudi1 | First Saudi dialect question |
+| QuestionID_Saudi2 | Identifier for the second Saudi dialect question |
+| Question_Saudi2 | Second Saudi dialect question |
+| QuestionID_Moroccan | Identifier for the Moroccan dialect question |
+| Question_Moroccan | Moroccan dialect question |
+| QuestionID_Tunisian | Identifier for the Tunisian dialect question |
+| Question_Tunisian | Tunisian dialect question |
+
+Each question ID contains a prefix indicating the dataset split: <br>
+Tr... → Training set <br>
+Te... → Test set <br>
+D... → Development (Dev) set <br>
+The numerical part of the ID is unique within each split. When removing the prefix, all numbers remain unique within their respective training, test, or development set.
 
 
 Full Corpus Download
